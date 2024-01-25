@@ -2,7 +2,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Paragraps = () => {
   return (
-    <div className="text-white sm:mt-[61px]  ">
+    <div className="text-white sm:mt-[61px] pr-[42px] shrink-0 ">
       <div className="max-sm:w-[329px] max-sm:flex max-sm:flex-col max-md:items-end max-sm:ml-[22px] max-w-[636px]">
         <h1 className=" max-sm:mb-[25px] max-sm:text-[13px] max-sm:text-right max-sm:w-[250px] text-[35px] text-right">
           Asoc. Civil de Preparadores Físicos de Basquetbol Argentino

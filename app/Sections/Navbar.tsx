@@ -24,10 +24,13 @@ const Navbar = () => {
           <Link href={"/"}>
             <h2>Inicio</h2>
           </Link>
-          <Link href={"Contact"}>
+          <Link className=" " href={"/"}>
             <h2 className="ml-[18px]">Contacto</h2>
           </Link>
-          <h2 className="ml-[18px]">Tienda</h2>
+          <Link href={"/"}>
+            <h2 className="ml-[18px]">Tienda</h2>
+          </Link>
+
           <Link href="Login">
             <button className="w-[99px] h-[31px] bg-[#FE7C45] text-black ml-[18px] mr-[18px] ">
               Login{" "}
@@ -63,17 +66,19 @@ const Navbar = () => {
                 Inicio
               </li>
             </Link>
-            <Link href={"Contact"}>
-              <li onClick={() => setMenuOpen(false)} className="mb-[40px]">
-                Contacto
-              </li>
-            </Link>
-            <Link href={""}>
-              <li onClick={() => setMenuOpen(false)} className="mb-[40px]">
-                {" "}
-                Tienda
-              </li>
-            </Link>
+
+            <li onClick={() => setMenuOpen(false)} className="mb-[40px]">
+              Contacto
+            </li>
+
+            <li
+              onClick={() => setMenuOpen(false)}
+              className="mb-[40px] cursor-pointer"
+            >
+              {" "}
+              Tienda
+            </li>
+
             <Link href={"Login"} className="mb-[40px]">
               <li
                 onClick={() => setMenuOpen(false)}

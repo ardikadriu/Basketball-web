@@ -6,9 +6,9 @@ const Contactform = () => {
       <h1 className="text-[30px] font-semibold mt-[34px] mb-[20px] text-white">
         Contactanos
       </h1>
-      <div className="text-black ">
+      <div className="text-black shrink-0 ">
         <input
-          className="outline-0 py-[10px] pl-[13px] rounded-[9px]"
+          className="outline-0 py-[10px] pl-[13px] rounded-[9px] shrink-0"
           type="text"
           placeholder="Nombre"
         />

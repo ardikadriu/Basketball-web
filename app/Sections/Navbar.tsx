@@ -12,7 +12,10 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="max-sm:flex max-sm:justify-center justify-center w-full flex  text-white  sm:mb-[61px] max-sm:items-center max-sm:py-[31px] max-sm:px-[34px] pt-[37px] ">
+    <nav
+      className=" 
+     max-sm:flex max-sm:justify-center justify-center w-full flex  text-white  sm:mb-[61px] max-sm:items-center max-sm:py-[31px] max-sm:px-[34px] pt-[37px] "
+    >
       <div className="max-sm:w-[329px] w-[1096px] justify-between flex max-sm:justify-between max-sm:items-center ">
         <div>
           <h1 className="text-[30px] max-sm:text-[20px] font-bold">ACPFBA</h1>

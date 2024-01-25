@@ -6,7 +6,7 @@ const Icons = () => {
   return (
     <div className="flex justify-center sm:hidden items-end mt-[24px] pb-[55px]">
       <div>
-        <h2 className="text-[10px] block w-[329px] text-left">
+        <h2 className="text-[10px] block w-[329px] text-left i">
           Seguinos en nuestras redes sociales
         </h2>
         <div className="flex mt-[18px]">

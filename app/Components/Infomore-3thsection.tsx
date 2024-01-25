@@ -14,10 +14,13 @@ const Infomore = () => {
             {" "}
             <FiPhone className="max-sm:w-[23px]" size={36} />
             <div className="max-sm:ml-[4px] ml-[29px] ">
-              <h1 className="max-sm:pb-[12px] pb-[37px] font-semibold">
+              <h1 className="max-sm:pb-[12px] pb-[37px] font-semibold text-[20px] max-sm:text-[10px]">
                 Telefono:{" "}
               </h1>
-              <h2 className="font-medium"> +54 9 113345679</h2>
+              <h2 className="font-medium text-2xl max-sm:text-[10px]">
+                {" "}
+                +54 9 113345679
+              </h2>
             </div>
           </div>
           <div className="flex items-center  mb-[24px]">
@@ -25,7 +28,7 @@ const Infomore = () => {
               <TfiEmail className="max-sm:w-[28px] max-sm:h-[20px]" size={41} />
             </div>
             <div className=" max-sm:ml-[4px] ml-[29px]">
-              <h1 className=" max-sm:pb-[12px] pb-[37px] font-semibold ">
+              <h1 className=" max-sm:pb-[12px] pb-[37px] font-semibold  ">
                 E-mail:
               </h1>
               <h2 className=" font-medium">Dirección:</h2>

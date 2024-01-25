@@ -9,7 +9,7 @@ const Form = () => {
             className="w-[109px] h-[24px] rounded-[9px] text-black text-[10px] pl-[5px] font-medium"
             type="text"
             placeholder="Nombre"
-          ></input>
+          ></input>{" "}
           <input
             className="w-[109px] h-[24px] rounded-[9px] ml-[17px] text-black text-[10px] pl-[5px] font-medium"
             type="text"

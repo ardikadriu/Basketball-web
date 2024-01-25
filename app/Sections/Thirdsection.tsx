@@ -4,7 +4,7 @@ import Icons from "../Components/Icons";
 
 const Thirdsection = () => {
   return (
-    <div className=" flex max-sm:flex-col w-full  text-white justify-center  items-center mt-[253px] max-sm:mt-[149px]">
+    <div className=" flex max-sm:flex-col w-full  text-white justify-center max-sm:items-center items-center mt-[253px] max-sm:mt-[149px]">
       <div className="  text-center mr-[181px] max-sm:hidden">
         <h1 className="font-semibold text-[30px]">Seminarios</h1>
         <h2 className="text-[22px] font-semibold">
@@ -14,6 +14,7 @@ const Thirdsection = () => {
           Ver más
         </button>
       </div>
+
       <Infomore />
       <Form />
       <div className="sm:hidden w-[329px] border-2 border-solid mt-[70px]"></div>

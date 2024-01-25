@@ -7,7 +7,7 @@ import Fourthsection from "./Sections/Fourthsection";
 
 export default function Home() {
   return (
-    <main className="max-sm:max-w-[394px]">
+    <main className="max-sm:flex max-sm:flex-col max-sm:items-center">
       <Navbar />
       <Firstsection />
       <Secondsetion />
